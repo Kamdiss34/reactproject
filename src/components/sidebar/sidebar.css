@@ -1,0 +1,20 @@
+#tables{
+    margin-top: 50px;
+    width: 980px;
+    margin-right: 500px;
+    
+}
+
+#side{
+    background-color: rgb(4, 49, 75);
+}
+.sides{
+    margin-top: -50px;
+    width: 205px;
+}
+#nav{
+    background-color: pink;
+}
+#search{
+    float: left;
+}
