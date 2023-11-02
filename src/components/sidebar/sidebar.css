@@ -2,12 +2,14 @@
     margin-top: 50px;
     width: 980px;
     margin-right: 500px;
+    overflow-x: auto;
     
 }
 
 #side{
     background-color: rgb(4, 49, 75);
 }
+
 .sides{
     margin-top: -50px;
     width: 205px;

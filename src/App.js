@@ -3,9 +3,6 @@ import Todo from './components/Todo';
 
 import Sidebar from './components/sidebar/Sidebar';
 
-import FilterButton from './components/FilterButton';
-import logo from './logo.svg';
-
 import './App.css';
 
 

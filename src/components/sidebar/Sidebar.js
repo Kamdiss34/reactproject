@@ -4,47 +4,57 @@ import "./sidebar.css";
 function Sidebar() {
   return (
 <div class="container-fluid cont justify-content">
-      <div  class="row flex-nowrap" >
+      <div  class="row flex-nowrap">
       
-          <div  class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 p-3 mb-2 bg-transparent text-dark border" >
-          <div id="side" class="sides">
+          <div  class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 p-3 mb-2 bg-transparent text-dark border " >
+          <div  class="sides p-3 mb-2 bg-secondary text-white">
               <div  class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
               
                   <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                      
                   </a>
-                  <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start " id="menu">
+                  <ul class="p-3 mb-2 bg-secondary text-white " id="menu">
                       <li class="nav-item ">
                           <a href="#" class="nav-link align-middle px-0">
-                              <i class="fs-4 bi-house "></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span>
+                              <i class="fs-4 bi-house "></i> <span class="ms-1 d-none d-sm-inline p-3 mb-2 bg-secondary text-white">Dashboard</span>
                           </a>
                       </li>
                       <li>
                           <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                              <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Gestion des articles</span> </a>
+                              <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline p-3 mb-2 bg-secondary text-white">Articles</span> </a>
                           <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
                               
                           </ul>
                       </li>
                       <li>
                           <a href="#" class="nav-link px-0 align-middle">
-                              <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Gestion des clients</span></a>
-                      </li>
-                      <li>
-                          <a href="#" class="nav-link px-0 align-middle">
-                              <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Commandes</span></a>
+                              <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline p-3 mb-2 bg-secondary text-white">Clients</span></a>
                       </li>
                       
                       <li>
+                          <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                              <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline p-3 mb-2 bg-secondary text-white">Commandes</span></a>
+                          <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                              
+                          </ul>
+                      </li>
+                      <li>
                           <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                              <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Catégories</span> </a>
+                              <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline p-3 mb-2 bg-secondary text-white">Catégories</span> </a>
                               <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
                              
                           </ul>
                       </li>
                       <li>
                           <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                              <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Mon compte</span> </a>
+                              <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline p-3 mb-2 bg-secondary text-white">Rapports</span> </a>
+                              <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                             
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                              <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline p-3 mb-2 bg-secondary text-white">Compte</span> </a>
                               <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
                              
                           </ul>
@@ -59,14 +69,14 @@ function Sidebar() {
           
           <div>
             
-          <nav class="navbar navbar-expand-lg bg-light" >
+          <nav class=" navbar-expand-lg p-3 mb-2 bg-secondary text-white">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+   
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
@@ -88,10 +98,10 @@ function Sidebar() {
         </li>
       </ul>
      
-    </div>
+   
   </div>
 </nav>
-<div  class="container" id="tables">
+<div  class="container">
 <table class="table table-striped table-centered mb-0" id="tables">
     <thead>
         <tr>
