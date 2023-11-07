@@ -1,22 +1,10 @@
-#tables{
-    margin-top: 50px;
-    width: 980px;
-    margin-right: 500px;
-    overflow-x: auto;
-    
-}
 
 #side{
-    background-color: rgb(4, 49, 75);
+    background-color: rgb(224, 58, 216);
 }
 
 .sides{
-    margin-top: -50px;
+                
     width: 205px;
 }
-#nav{
-    background-color: pink;
-}
-#search{
-    float: left;
-}
+

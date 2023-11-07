@@ -1,12 +1,11 @@
 import React from "react";
 import "./sidebar.css";
 
-function Sidebar() {
+function Sidebar1() {
   return (
-<div class="container-fluid cont justify-content">
-      <div  class="row flex-nowrap">
+
       
-          <div  class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 p-3 mb-2 bg-transparent text-dark border " >
+
           <div  class="sides p-3 mb-2 bg-secondary text-white">
               <div  class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
               
@@ -65,81 +64,10 @@ function Sidebar() {
                       </div>
                       </div>
 
-          </div>
-          
-          <div>
-            
-        
-  
-<table class="table table-striped table-centered mb-0" id="tables">
-    <thead>
-        <tr>
-            <th>Article</th>
-            <th>Prix Unit</th>
-            <th>Quantity</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td class="table-user">
-        
-                Risa D. Pearson
-            </td>
-            <td>AC336 508 2157</td>
-            <td>July 24, 1950</td>
-            <td class="table-action">
-                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil">Modifier</i></a>
-                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete">Supprimer</i></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="table-user">
-        
-                Ann C. Thompson
-            </td>
-            <td>SB646 473 2057</td>
-            <td>January 25, 1959</td>
-            <td class="table-action">
-                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil">Modifier</i></a>
-                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete">Supprimer</i></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="table-user">
-        
-                Paul J. Friend
-            </td>
-            <td>DL281 308 0793</td>
-            <td>September 1, 1939</td>
-            <td class="table-action">
-                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil">Modifier</i></a>
-                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete">Supprimer</i></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="table-user">
-        
-                Sean C. Nguyen
-            </td>
-            <td>CA269 714 6825</td>
-            <td>February 5, 1994</td>
-            <td class="table-action">
-                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-pencil">Modifier</i></a>
-                <a href="javascript: void(0);" class="action-icon"> <i class="mdi mdi-delete">Supprimer</i></a>
-            </td>
-        </tr>
-        
-    </tbody>
-</table>
-</div>
-          </div>
          
-  
-      </div>
-      
-
-);
+          
+         
+          );
 }
 
-export default Sidebar;
+export default Sidebar1;
