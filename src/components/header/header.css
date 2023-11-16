@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Avenir ,sans serif;
@@ -87,11 +87,12 @@ nav > ul li :hover.sous{
     background-color: aquamarine;
     
 }
-Nav.Link{
-   }
    #sup{
     color: red;
    }
    #edit{
     color:blue;
+   }
+   #tables{
+    margin-left: 20%;
    }

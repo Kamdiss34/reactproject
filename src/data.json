@@ -1,0 +1,61 @@
+{
+    "clients": [
+        {
+            "client_id": "1",
+            "nom": "Tom",
+            "prenom": "Jackson",
+            "age": "21",
+            
+            "sexe": "M"
+        },
+        {
+            "client_id": "2",
+            "nom": "Inoussa",
+            "prenom": "Farid",
+            "age": "16",
+            "sexe": "M"
+        },
+        {
+            "client_id": "3",
+            "nom": "Gbada",
+            "prenom": "Waidath",
+            "age": "20",
+            "sexe": "F"
+        },
+        {
+            "client_id": "4",
+            "nom": "Gouton",
+            "prenom": "Horemans",
+            "age": "21",
+            "sexe": "M"
+        },
+        {
+            "client_id": "5",
+            "nom": "Nachirou",
+            "prenom": "Djassim",
+            "age": "20",
+            "sexe": "M"
+        },
+        {
+            "client_id": "6",
+            "nom": "Badirou",
+            "prenom": "Imane",
+            "age": "20",
+            "sexe": "F"
+        },
+        {
+            "client_id": "7",
+            "nom": "Akinocho",
+            "prenom": "Lawal",
+            "age": "22",
+            "sexe": "M"
+        },
+        {
+            "client_id": "8",
+            "nom": "OSSENI",
+            "prenom": "Isiaka",
+            "age": "21",
+            "sexe": "M"
+        }
+    ]
+}

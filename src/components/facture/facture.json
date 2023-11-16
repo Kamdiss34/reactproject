@@ -1,0 +1,19 @@
+{"achats": [
+    {   "id":"1",
+        "article":"Lait",
+        "prix":"200",
+        "quantite":"10",
+        "total":"2000"
+    },
+
+    {   
+    
+        "id":"2",
+        "article":"Lait",
+        "prix":"200",
+        "quantite":"10",
+        "total":"2000"
+        
+    }
+
+]}

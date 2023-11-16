@@ -30,7 +30,8 @@ function ResponsiveExample() {
         </Offcanvas.Body>
       </Offcanvas>
     </>
-  );
+  
+    );
 }
 
 export default ResponsiveExample; 
